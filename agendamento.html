@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamentos - Clínica Vida Saudável</title>
+</head>
+<body>
+    <header>
+        <h1>Agendamentos</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./localizacao.html">Localização</a></li>
+                <li><a href="./agendamento.html">Agendamentos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Faça seu agendamento abaixo</h2>
+        <fieldset> 
+            <legend>Dados Pessoais</legend>
+            <label for="Nome">Nome:</label>
+            <input type="Text" id="Nome" name="Nome" required>
+            <label for="Sobrenome">Sobrenome: </label>
+            <input type="text" id="Sobrenome" name="sobrenome" required>
+            <label for="Telefone">Telefone: </label>
+            <input type="tel" id="Telefone" name="Telefone" required>
+            <label for="Email">Email: </label>
+            <input type="email" id="Email" name="Email" required>
+            
+            
+            <label for="Gênero"> Gênero:</label>
+            <select name="Gênero" id="Gênero">
+                <option value="Gênero">Masculino</option>
+                <option value="Gênero">Feminino</option>
+                <option value="Gênero">Prefiro não informar</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Contato de Emergência</legend>
+            <label for="Nomecontato">Nome: </label>
+            <input type="text" id="Nomecontato" name="Nomecontato" required>
+
+            <label for="Telefonecontato">Telefone: </label>
+            <input type="text"  id="Telefonecontato" name="Telefonecontato" required>
+        </fieldset>
+
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
